@@ -1,0 +1,170 @@
+/* 
+
+margin
+border
+padding
+content
+padding
+border
+margin
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: lightcoral;
+  height: 10vh;
+}
+
+nav {
+  background: lightblue;
+  height: 2.5rem;
+  text-align: end;
+  position: sticky;
+  top: 0;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+nav ul {
+  border: solid;
+}
+
+nav li {
+  width: 10%;
+  display: inline-block;
+  text-align: center;
+  border: solid;
+}
+
+a {
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  border: solid;
+}
+
+/* Main */
+
+section {
+  background-color: lightgreen;
+  width: 80%;
+  min-height: 30vh;
+  margin: 1.5rem auto;
+  padding: 1rem;
+}
+
+/* Section 1 - Inline-Block */
+
+.card {
+  background-color: red;
+  width: 25rem;
+  height: 18.75rem;
+  display: inline-block;
+}
+
+.card2 {
+  background-color: blueviolet;
+  width: 25rem;
+  height: 18.75rem;
+  display: inline-block;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* Section 2 - Form */
+
+form {
+  width: 15rem;
+  font-size: 1.2rem;
+  margin: auto;
+  padding: 1rem;
+  border: solid red;
+}
+
+form div {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  border: solid;
+}
+
+label {
+  width: 100%;
+  display: inline-block;
+}
+
+input[type="radio"] {
+  width: 1rem;
+  height: 1rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.3rem 0.7rem;
+  /* outline: solid red 0.3rem; */
+  /* outline-offset: 0.3rem; */
+  /* border: solid blue 0.3rem; */
+  /* border-color: red;
+  border-width: 0.3rem;
+  border-style: dashed; */
+}
+
+button {
+  color: green;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Section 3 - Background-image */
+
+.s3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(216, 10, 10, 0.4)),
+    url("./fox.jpg") center/cover;
+  /* background-image: url("./fox.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: -15px; */
+
+  /* Weg 1 */
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* background-blend-mode: overlay; */
+
+  /* Weg 2 */
+  /* backdrop-filter: brightness(10%); */
+}
+
+footer {
+  background-color: lightpink;
+  height: 10rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer ul {
+  display: inline-block;
+  list-style: none;
+  float: left;
+}
+
+footer img {
+  width: 2rem;
+  height: 2rem;
+  float: right;
+}
+
+.box {
+  background-color: red;
+  width: 4rem;
+  height: 3rem;
+  margin-left: auto;
+  clear: both;
+}
