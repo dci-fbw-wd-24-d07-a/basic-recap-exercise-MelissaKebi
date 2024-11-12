@@ -4,51 +4,52 @@
 
 - Was ist das besondere an einem `block` Element?
 
-  Antwort:
+  Antwort: Block Elemente nutzen immer die komplette Fensterbreite.
 
 - Was ist das besondere an einem `inline` Element?
 
-  Antwort:
+  Antwort:Inline-Elemente sind immer nur so breit wie ihr Inhalt, es wird daher auch kein Zeilenumbruch erzeugt, solange die Breite der Zeile ausreicht, um mehrere Inline-Elemente nebeinander zu positionieren. Zu der Kategorie der Inline-Element gehören beispielsweise: span. strong.
 
 - Was ist das besondere an einem `inline-block` Element?
 
-  Antwort:
+  Antwort:Im Gegensatz zu reinen Blockelementen erzwingen sie jedoch keinen Zeilenumbruch vor und nach sich. Breite und Höhe: Im Gegensatz zu reinen Inline-Elementen können Elemente mit "display: inline-block" eine explizit festgelegte Breite und Höhe haben.
 
 - Welche Art von Element ist ein `input` Element?
 
-  Antwort:
+  Antwort:Die Art des Eingabefeldes wird über das type -Attribut festgelegt.
 
 - Welche Art von Element ist ein `table` Element?
 
-  Antwort:
+  Antwort:Das <table> HTML Element repräsentiert tabellarische Daten – also Informationen, die in einer zweidimensionalen Tabelle dargestellt sind, bestehend aus Zeilen und Spalten mit Zellen, die Daten enthalten.
 
 - Welche Art von Element ist ein `div` Element?
 
-  Antwort:
+  Antwort:DIV ist ein Block-Element.
 
 - Welche Art von Element ist ein `a` Element?
 
-  Antwort:
+  Antwort:Das a-Element stellt einen Verweis, (Hyper-)Link auf eine (andere) Web-Adresse dar.
 
 - Welche Art von Element ist ein `body` Element?
 
-  Antwort:
+  Antwort:HTML <body> is ein HTML-Element, mit dessen Hilfe Inhalte eines Dokuments dargestellt werden.
 
 - Welche Art von Element ist ein `form` Element?
 
-  Antwort:
+  Antwort:Das Element <form>
+  Alles was innerhalb des Elements steht gehört zu einem Formular.
 
 - Wann funktioniert `text-aline: center`?
 
-  Antwort:
+  Antwort:Wenn Block-Elemente als Inline-Elemente deklariert werden, kann text-align nicht wirken. left richtet Text links aus, right rechts, center zentriert einen Text und justify setzt den Text als Blocksatz.
 
 - Wie kann man ein `block` Element zentrieren?
 
-  Antwort:
+  Antwort: Bei einem Block-Element (wie einem div ), das eine spezifische Breite hat, kannst Du margin-left: auto; margin-right: auto; anwenden, um es horizontal zu zentrieren.
 
 - Wie kennzeichnet man eine `id` im CSS?
 
-  Antwort:
+  Antwort: IDs mit einer Raute + ID-Name (#idname).
 
 ## Aufgaben
 
